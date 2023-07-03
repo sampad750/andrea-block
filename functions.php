@@ -17,3 +17,6 @@ if (!function_exists('andrea_setup')) :
 	}
 endif; // andrea_setup
 add_action('after_setup_theme', 'andrea_setup');
+
+
+wp_enqueue_style( 'style', get_stylesheet_uri() );
